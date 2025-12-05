@@ -1,0 +1,16 @@
+/* custom width classes w-20 & w-30 */
+.w-20 {
+    width: 20%;
+}
+
+.w-30 {
+    width: 30%;
+}
+
+.logo-text {
+    width: 80px;
+}
+
+.bi {
+    margin-right: 14px;
+}
