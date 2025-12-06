@@ -25,11 +25,11 @@ function Posts() {
                 <h5>{post.user.username}</h5>
               </div>
               <img className="image" src={post.image} alt="post" />
-              <div>
+              <div className="d-flex mt-2">
                 <i className="bi bi-heart"></i>
                 <i className="bi bi-chat"></i>
                 <i className="bi bi-send"></i>
-                <i className="bi bi-bookmark"></i>
+                <i className="bi bi-bookmark ms-auto"></i>
               </div>
               <b>{post.likes} Likes</b>
               <p>{post.caption}</p>

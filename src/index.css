@@ -29,3 +29,18 @@
     width: 450px;
     border-radius: 5px;
 }
+
+.profile_switch h5 {
+    font-family: sans-serif;
+    font-size: 12px;
+    margin-bottom: 0;
+}
+
+.profile_switch .dp {
+    height: 38px;
+}
+
+.sugg_context {
+    font-family: sans-serif;
+    font-weight: 32;
+}

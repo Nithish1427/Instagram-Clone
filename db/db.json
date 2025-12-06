@@ -192,5 +192,55 @@
       ],
       "timestamp": "2026-11-06T21:10:14Z"
     }
+  ],
+  "profile": {
+    "id": 104,
+    "handle" : "jerseyno.14",
+    "username": "Nithish",
+    "profile_pic": "src/assets/profile_pic_nithish.jpg"
+  },
+  "suggestions": [
+    {
+      "id": 101,
+      "username": "alex_dev",
+      "context" : "Suggested for you",
+      "profile_pic": "src/assets/profile_pic_1.png"
+    },
+    {
+      "id": 102,
+      "username": "daniel",
+      "context" : "Followed by Dhileepan",
+      "profile_pic": "src/assets/profile_pic_4.png"
+    },
+    {
+      "id": 103,
+      "username": "emma",
+      "context" : "Suggested for you",
+      "profile_pic": "src/assets/profile_pic_7.png"
+    },
+    {
+      "id": 105,
+      "username": "sophia",
+      "context" : "Followed by Dhileepan",
+      "profile_pic": "src/assets/profile_pic_3.png"
+    },
+    {
+      "id": 106,
+      "username": "lucas",
+      "context" : "Following Messi",
+      "profile_pic": "src/assets/profile_pic_5.png"
+    },
+    {
+      "id": 107,
+      "username": "mark",
+      "context" : "Suggested for you",
+      "profile_pic": "src/assets/profile_pic_2.png"
+    },
+    {
+      "id": 108,
+      "username": "mia",
+      "context" : "Following Dhileepan",
+      "profile_pic": "src/assets/profile_pic_6.png"
+    }
   ]
 }
