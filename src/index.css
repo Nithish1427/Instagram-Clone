@@ -8,9 +8,24 @@
 }
 
 .logo-text {
-    width: 80px;
+    width: 120px;
 }
 
 .bi {
     margin-right: 14px;
+}
+
+.story {
+    height: 60px;
+}
+
+.dp {
+    height: 20px;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+
+.image {
+    width: 450px;
+    border-radius: 5px;
 }

@@ -1,0 +1,196 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "user": {
+        "id": 101,
+        "username": "alex_dev",
+        "profile_pic": "src/assets/profile_pic_1.png"
+      },
+      "image": "src/assets/debugging_in_sleep.jpg",
+      "caption": "Late night debugging hits different 😭🔥 #3AMthoughts",
+      "likes": 245,
+      "comments": [
+        {
+          "user": "emma_design",
+          "comment": "bro i relate too much 💀"
+        },
+        {
+          "user": "daniel_code",
+          "comment": "realest caption ever 😂"
+        }
+      ],
+      "timestamp": "2025-02-10T19:45:00Z"
+    },
+    {
+      "id": 2,
+      "user": {
+        "id": 102,
+        "username": "daniel",
+        "profile_pic": "src/assets/profile_pic_4.png"
+      },
+      "image": "src/assets/tents_at_grasslands.jpg",
+      "caption": "Weekend getaway 🌄 #Nature",
+      "likes": 198,
+      "comments": [
+        {
+          "user": "emma",
+          "comment": "Need this peace fr!"
+        }
+      ],
+      "timestamp": "2025-02-07T08:12:00Z"
+    },
+    {
+      "id": 3,
+      "user": {
+        "id": 103,
+        "username": "emma",
+        "profile_pic": "src/assets/profile_pic_7.png"
+      },
+      "image": "src/assets/designing_hands.png",
+      "caption": "Designing something fresh 🎨 #Innovation",
+      "likes": 310,
+      "comments": [
+        {
+          "user": "alex_dev",
+          "comment": "Clean aesthetics 🔥"
+        },
+        {
+          "user": "Nithish",
+          "comment": "Can't wait to see it!"
+        }
+      ],
+      "timestamp": "2025-02-08T17:05:00Z"
+    },
+    {
+      "id": 4,
+      "user": {
+        "id": 104,
+        "username": "Nithish",
+        "profile_pic": "src/assets/profile_pic_nithish.jpg"
+      },
+      "image": "src/assets/chilling_at_the_beach.png",
+      "caption": "Chilling with good vibes 🌿✨  #Nature",
+      "likes": 140,
+      "comments": [
+        {
+          "user": "alex_dev",
+          "comment": "This looks unreal!"
+        }
+      ],
+      "timestamp": "2025-02-09T10:20:00Z"
+    },
+    {
+      "id": 5,
+      "user": {
+        "id": 105,
+        "username": "sophia",
+        "profile_pic": "src/assets/profile_pic_3.png"
+      },
+      "image": "src/assets/coffee+work=perfect_combo.jpg",
+      "caption": "Coffee + Work = Perfect combo ☕💻 #MondayMotivation",
+      "likes": 155,
+      "comments": [
+        {
+          "user": "daniel",
+          "comment": "Productive vibes!"
+        }
+      ],
+      "timestamp": "2025-02-06T12:34:00Z"
+    },
+    {
+      "id": 6,
+      "user": {
+        "id": 106,
+        "username": "lucas",
+        "profile_pic": "src/assets/profile_pic_5.png"
+      },
+      "image": "src/assets/gym_mirror_selfie_2.jpeg",
+      "caption": "Gym session done 💪🔥 #Fitness",
+      "likes": 270,
+      "comments": [
+        {
+          "user": "mark",
+          "comment": "Beast mode 💯"
+        }
+      ],
+      "timestamp": "2025-02-04T06:45:00Z"
+    },
+    {
+      "id": 7,
+      "user": {
+        "id": 107,
+        "username": "mark",
+        "profile_pic": "src/assets/profile_pic_2.png"
+      },
+      "image": "src/assets/sunset_long.jpeg",
+      "caption": "Sunset always wins 🌅 #Nature",
+      "likes": 420,
+      "comments": [
+        {
+          "user": "sophia",
+          "comment": "Nature's beauty!"
+        },
+        {
+          "user": "emma",
+          "comment": "Love this angle!"
+        }
+      ],
+      "timestamp": "2025-02-05T18:55:00Z"
+    },
+    {
+      "id": 8,
+      "user": {
+        "id": 108,
+        "username": "mia",
+        "profile_pic": "src/assets/profile_pic_6.png"
+      },
+      "image": "src/assets/home_made_brownies.jpeg",
+      "caption": "Homemade brownies 🍫😍 #Baking",
+      "likes": 360,
+      "comments": [
+        {
+          "user": "sophia",
+          "comment": "save me one pls 😭"
+        }
+      ],
+      "timestamp": "2025-02-03T14:05:00Z"
+    },
+    {
+      "id": 9,
+      "user": {
+        "id": 109,
+        "username": "Dhileepan",
+        "profile_pic": "src/assets/profile_pic_dhileepan.png"
+      },
+      "image": "src/assets/lake_view_bridge.png",
+      "caption": "A long walk by the lake 🌊 #Nature",
+      "likes": 132,
+      "comments": [
+        {
+          "user": "Nithish",
+          "comment": "where's this place? ✨"
+        }
+      ],
+      "timestamp": "2025-02-02T16:30:00Z"
+    },
+    {
+      "id": 10,
+      "user": {
+        "id": 110,
+        "username": "Lionel Messi",
+        "profile_pic": "src/assets/profile_pic_messi.png"
+      },
+      "image": "src/assets/Messi_Camp_Nou_secret_visit.png",
+      "caption": "Loads of memories.... The place where it all began.... ✨",
+      "likes": 514,
+      "comments": [
+        {
+          "user": "Nithish",
+          "comment": "the GOAT returns 😍🔥"
+        }
+      ],
+      "timestamp": "2026-11-06T21:10:14Z"
+    }
+  ]
+}
