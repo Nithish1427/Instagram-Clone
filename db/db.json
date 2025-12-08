@@ -4,6 +4,42 @@
       "id": 1,
       "user": {
         "id": 101,
+        "username": "Lionel Messi ",
+        "profile_pic": "src/assets/profile_pic_messi.png"
+      },
+      "image": "src/assets/Messi_Camp_Nou_secret_visit.png",
+      "caption": "Loads of memories.... The place where it all began.... ✨",
+      "likes": 514,
+      "comments": [
+        {
+          "user": "jerseyno.14",
+          "comment": "the GOAT returns 😍🔥"
+        }
+      ],
+      "timestamp": "2026-11-06T21:10:14Z"
+    },
+    {
+      "id": 2,
+      "user": {
+        "id": 102,
+        "username": "i'm_dhileepan",
+        "profile_pic": "src/assets/profile_pic_dhileepan.png"
+      },
+      "image": "src/assets/lake_view_bridge.png",
+      "caption": "A long walk by the lake 🌊 #Nature",
+      "likes": 132,
+      "comments": [
+        {
+          "user": "jerseyno.14",
+          "comment": "where's this place? ✨"
+        }
+      ],
+      "timestamp": "2025-02-02T16:30:00Z"
+    },
+    {
+      "id": 3,
+      "user": {
+        "id": 103,
         "username": "alex_dev",
         "profile_pic": "src/assets/profile_pic_1.png"
       },
@@ -23,50 +59,10 @@
       "timestamp": "2025-02-10T19:45:00Z"
     },
     {
-      "id": 2,
-      "user": {
-        "id": 102,
-        "username": "daniel",
-        "profile_pic": "src/assets/profile_pic_4.png"
-      },
-      "image": "src/assets/tents_at_grasslands.jpg",
-      "caption": "Weekend getaway 🌄 #Nature",
-      "likes": 198,
-      "comments": [
-        {
-          "user": "emma",
-          "comment": "Need this peace fr!"
-        }
-      ],
-      "timestamp": "2025-02-07T08:12:00Z"
-    },
-    {
-      "id": 3,
-      "user": {
-        "id": 103,
-        "username": "emma",
-        "profile_pic": "src/assets/profile_pic_7.png"
-      },
-      "image": "src/assets/designing_hands.png",
-      "caption": "Designing something fresh 🎨 #Innovation",
-      "likes": 310,
-      "comments": [
-        {
-          "user": "alex_dev",
-          "comment": "Clean aesthetics 🔥"
-        },
-        {
-          "user": "Nithish",
-          "comment": "Can't wait to see it!"
-        }
-      ],
-      "timestamp": "2025-02-08T17:05:00Z"
-    },
-    {
       "id": 4,
       "user": {
         "id": 104,
-        "username": "Nithish",
+        "username": "jerseyno.14",
         "profile_pic": "src/assets/profile_pic_nithish.jpg"
       },
       "image": "src/assets/chilling_at_the_beach.png",
@@ -74,7 +70,7 @@
       "likes": 140,
       "comments": [
         {
-          "user": "alex_dev",
+          "user": "i'm_dhileepan",
           "comment": "This looks unreal!"
         }
       ],
@@ -102,7 +98,7 @@
       "id": 6,
       "user": {
         "id": 106,
-        "username": "lucas",
+        "username": "lucas17",
         "profile_pic": "src/assets/profile_pic_5.png"
       },
       "image": "src/assets/gym_mirror_selfie_2.jpeg",
@@ -120,29 +116,25 @@
       "id": 7,
       "user": {
         "id": 107,
-        "username": "mark",
-        "profile_pic": "src/assets/profile_pic_2.png"
+        "username": "daniel",
+        "profile_pic": "src/assets/profile_pic_4.png"
       },
-      "image": "src/assets/sunset_long.jpeg",
-      "caption": "Sunset always wins 🌅 #Nature",
-      "likes": 420,
+      "image": "src/assets/tents_at_grasslands.jpg",
+      "caption": "Weekend getaway 🌄 #Nature",
+      "likes": 198,
       "comments": [
         {
-          "user": "sophia",
-          "comment": "Nature's beauty!"
-        },
-        {
           "user": "emma",
-          "comment": "Love this angle!"
+          "comment": "Need this peace fr!"
         }
       ],
-      "timestamp": "2025-02-05T18:55:00Z"
+      "timestamp": "2025-02-07T08:12:00Z"
     },
     {
       "id": 8,
       "user": {
         "id": 108,
-        "username": "mia",
+        "username": "mia_bakes",
         "profile_pic": "src/assets/profile_pic_6.png"
       },
       "image": "src/assets/home_made_brownies.jpeg",
@@ -155,42 +147,6 @@
         }
       ],
       "timestamp": "2025-02-03T14:05:00Z"
-    },
-    {
-      "id": 9,
-      "user": {
-        "id": 109,
-        "username": "Dhileepan",
-        "profile_pic": "src/assets/profile_pic_dhileepan.png"
-      },
-      "image": "src/assets/lake_view_bridge.png",
-      "caption": "A long walk by the lake 🌊 #Nature",
-      "likes": 132,
-      "comments": [
-        {
-          "user": "Nithish",
-          "comment": "where's this place? ✨"
-        }
-      ],
-      "timestamp": "2025-02-02T16:30:00Z"
-    },
-    {
-      "id": 10,
-      "user": {
-        "id": 110,
-        "username": "Lionel Messi",
-        "profile_pic": "src/assets/profile_pic_messi.png"
-      },
-      "image": "src/assets/Messi_Camp_Nou_secret_visit.png",
-      "caption": "Loads of memories.... The place where it all began.... ✨",
-      "likes": 514,
-      "comments": [
-        {
-          "user": "Nithish",
-          "comment": "the GOAT returns 😍🔥"
-        }
-      ],
-      "timestamp": "2026-11-06T21:10:14Z"
     }
   ],
   "profile": {
@@ -201,46 +157,106 @@
   },
   "suggestions": [
     {
-      "id": 101,
-      "username": "alex_dev",
-      "context" : "Suggested for you",
-      "profile_pic": "src/assets/profile_pic_1.png"
-    },
-    {
-      "id": 102,
-      "username": "daniel",
-      "context" : "Followed by Dhileepan",
-      "profile_pic": "src/assets/profile_pic_4.png"
-    },
-    {
-      "id": 103,
-      "username": "emma",
+      "id": 109,
+      "username": "emma_design",
       "context" : "Suggested for you",
       "profile_pic": "src/assets/profile_pic_7.png"
     },
     {
-      "id": 105,
-      "username": "sophia",
-      "context" : "Followed by Dhileepan",
-      "profile_pic": "src/assets/profile_pic_3.png"
-    },
-    {
-      "id": 106,
-      "username": "lucas",
-      "context" : "Following Messi",
-      "profile_pic": "src/assets/profile_pic_5.png"
-    },
-    {
-      "id": 107,
+      "id": 110,
       "username": "mark",
-      "context" : "Suggested for you",
+      "context" : "Following you",
       "profile_pic": "src/assets/profile_pic_2.png"
     },
     {
-      "id": 108,
-      "username": "mia",
-      "context" : "Following Dhileepan",
-      "profile_pic": "src/assets/profile_pic_6.png"
+      "id": 111,
+      "username": "Steve_H",
+      "context" : "Suggested for you",
+      "profile_pic": "src/assets/profile_pic_Steve.png"
+    },
+    {
+      "id": 112,
+      "username": "maxine",
+      "context" : "Followed by i'm_dhileepan",
+      "profile_pic": "src/assets/profile_pic_11.png"
+    },
+    {
+      "id": 113,
+      "username": "Cristiano",
+      "context" : "Suggested for you",
+      "profile_pic": "src/assets/profile_pic_Ronaldo.png"
+    }
+  ],
+  "story": [
+    {
+      "id": 4,
+      "user": {
+        "id": 104,
+        "username": "jerseyno.14",
+        "profile_pic": "src/assets/profile_pic_nithish.jpg"
+      },
+      "image": "src/assets/Nithish_Stroy.jpg",
+      "timestamp": "2025-11-10T14:27:00Z"
+    },
+    {
+      "id": 1,
+      "user": {
+        "id": 101,
+        "username": "Lionel Messi",
+        "profile_pic": "src/assets/profile_pic_messi.png"
+      },
+      "image": "src/assets/Messi_Story.png",
+      "timestamp": "2025-11-10T14:10:00Z"
+    },
+    {
+      "id": 2,
+      "user": {
+        "id": 102,
+        "username": "i'm_dhileepan",
+        "profile_pic": "src/assets/profile_pic_dhileepan.png"
+      },
+      "image": "src/assets/Dhileepan_Stroy.jpg",
+      "timestamp": "2025-11-10T14:11:00Z"
+    },
+    {
+      "id": 3,
+      "user": {
+        "id": 103,
+        "username": "alex_dev",
+        "profile_pic": "src/assets/profile_pic_1.png"
+      },
+      "image": "src/assets/",
+      "timestamp": "2025-11-10T14:05:00Z"
+    },
+    {
+      "id": 6,
+      "user": {
+        "id": 106,
+        "username": "lucas17",
+        "profile_pic": "src/assets/profile_pic_5.png"
+      },
+      "image": "src/assets/lucas_story_1.png",
+      "timestamp": "2025-11-10T10:38:00Z"
+    },
+    {
+      "id": 7,
+      "user": {
+        "id": 107,
+        "username": "daniel",
+        "profile_pic": "src/assets/profile_pic_4.png"
+      },
+      "image": "src/assets/daniel_story_1.png",
+      "timestamp": "2025-11-10T10:15:00Z"
+    },
+    {
+      "id": 8,
+      "user": {
+        "id": 108,
+        "username": "mia_bakes",
+        "profile_pic": "src/assets/profile_pic_6.png"
+      },
+      "image": "src/assets/mia_story.png",
+      "timestamp": "2025-11-10T09:54:00Z"
     }
   ]
 }

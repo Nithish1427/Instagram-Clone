@@ -8,7 +8,7 @@ function App() {
     <div className='d-flex vh-100' >
       <div className='w-20'><SideBar/></div>
       <div className='w-50'><Feeds /></div>
-      <div className='w-30'><Suggestions /></div>
+      <div className='w-35'><Suggestions /></div>
     </div>
   )
 }

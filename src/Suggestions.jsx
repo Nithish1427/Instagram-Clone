@@ -17,7 +17,7 @@ function Suggestions() {
   }, []);
 
   return (
-    <div className="d-flex justify-content-center">
+    <div className="profSwitch_Suggestion d-flex justify-content-center">
       <div className="profile_switch w-75 m-4">
         {profile ? (
           <div className="d-flex">
@@ -30,32 +30,32 @@ function Suggestions() {
               <h5>{profile.handle}</h5>
               <h5 className="text-secondary">{profile.username}</h5>
             </div>
-            <small className="text-primary my-2 ms-auto">Switch</small>
+            <small className="text-primary mt-3 ms-auto">Switch</small>
           </div>
         ) : (
           <p>Loading....</p>
         )}
 
         <div className="d-flex mt-4">
-          <p className="text-secondary">Suggested for you</p>
+          <p className="sugg_for_you text-secondary">Suggested for you</p>
           <b className="ms-auto"><small>See All</small></b>
         </div>
 
         {suggestions.length > 0 ? (
           <div className="suggestions">
             {suggestions.map((suggestion) => (
-              <div key={suggestion.id}>
-                <div className="d-flex">
+              <div className="mb-2" key={suggestion.id}>
+                <div className="d-flex mb-0">
                   <img
                     className="dp rounded-circle"
                     src={suggestion.profile_pic}
                     alt="profile_pic"
                   />
-                  <div className="m-2">
+                  <div className="sugg_text-mt mx-2">
                     <h5>{suggestion.username}</h5>
                     <h5 className="sugg_context text-secondary">{suggestion.context}</h5>
                   </div>
-                  <small className="text-primary my-2 ms-auto">Follow</small>
+                  <small className="text-primary sugg_text-mt mt-3 ms-auto">Follow</small>
                 </div>
               </div>
             ))}
