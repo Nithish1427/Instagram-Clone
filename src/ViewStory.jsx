@@ -1,24 +1,30 @@
-import React, { useEffect, useState } from 'react'
-import { useParams } from 'react-router-dom'
+/* eslint-disable react-hooks/exhaustive-deps */
+import React, { useEffect, useState } from "react";
+import { useParams } from "react-router-dom";
 
 function ViewStory() {
+  const { id } = useParams();
 
-    const {id} = useParams();
+  const [story, setStory] = useState(null);
 
-    const [story, setStory] = useState(null);
-
-    useEffect(() => {
-        fetch(`http://localhost/3000/story/${id}`)
-        .then((data) => data.json())
-        .then((data) => setStory(data))
-        .catch((error) => console.log(error))
-    }, [id]);
+  useEffect(() => {
+    fetch(`http://localhost:3000/story/${id}`)
+      .then((data) => data.json())
+      .then((data) => {setStory(data); console.log(data); })
+      .catch((error) => console.log(error));
+  }, []);
 
   return (
     <div>
-        {story ? (<div>{story.user.username}</div>) : (<p>Loading....</p>)}
+      {story ? (
+        <div className="d-flex justify-content-center">
+          <img className="vh-100" src={story.image} alt="story" />
+        </div>
+      ) : (
+        <p>Loading....</p>
+      )}
     </div>
-  )
+  );
 }
 
-export default ViewStory
+export default ViewStory;

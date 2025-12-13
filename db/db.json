@@ -193,9 +193,9 @@
       "user": {
         "id": 104,
         "username": "jerseyno.14",
-        "profile_pic": "src/assets/profile_pic_nithish.jpg"
+        "profile_pic": "/assets/profile_pic_nithish.jpg"
       },
-      "image": "src/assets/Nithish_Stroy.jpg",
+      "image": "/assets/Nithish_Stroy.jpg",
       "timestamp": "2025-11-10T14:27:00Z"
     },
     {
@@ -203,9 +203,9 @@
       "user": {
         "id": 101,
         "username": "Lionel Messi",
-        "profile_pic": "src/assets/profile_pic_messi.png"
+        "profile_pic": "/assets/profile_pic_messi.png"
       },
-      "image": "src/assets/Messi_Story.png",
+      "image": "/assets/Messi_Story.png",
       "timestamp": "2025-11-10T14:10:00Z"
     },
     {
@@ -213,9 +213,9 @@
       "user": {
         "id": 102,
         "username": "i'm_dhileepan",
-        "profile_pic": "src/assets/profile_pic_dhileepan.png"
+        "profile_pic": "/assets/profile_pic_dhileepan.png"
       },
-      "image": "src/assets/Dhileepan_Stroy.jpg",
+      "image": "/assets/Dhileepan_Stroy.jpg",
       "timestamp": "2025-11-10T14:11:00Z"
     },
     {
@@ -223,9 +223,9 @@
       "user": {
         "id": 103,
         "username": "alex_dev",
-        "profile_pic": "src/assets/profile_pic_1.png"
+        "profile_pic": "/assets/profile_pic_1.png"
       },
-      "image": "src/assets/",
+      "image": "/assets/alex_dev_story.png",
       "timestamp": "2025-11-10T14:05:00Z"
     },
     {
@@ -233,9 +233,9 @@
       "user": {
         "id": 106,
         "username": "lucas17",
-        "profile_pic": "src/assets/profile_pic_5.png"
+        "profile_pic": "/assets/profile_pic_5.png"
       },
-      "image": "src/assets/lucas_story_1.png",
+      "image": "/assets/lucas_story_1.png",
       "timestamp": "2025-11-10T10:38:00Z"
     },
     {
@@ -243,9 +243,9 @@
       "user": {
         "id": 107,
         "username": "daniel",
-        "profile_pic": "src/assets/profile_pic_4.png"
+        "profile_pic": "/assets/profile_pic_4.png"
       },
-      "image": "src/assets/daniel_story_1.png",
+      "image": "/assets/daniel_story_1.png",
       "timestamp": "2025-11-10T10:15:00Z"
     },
     {
@@ -253,9 +253,9 @@
       "user": {
         "id": 108,
         "username": "mia_bakes",
-        "profile_pic": "src/assets/profile_pic_6.png"
+        "profile_pic": "/assets/profile_pic_6.png"
       },
-      "image": "src/assets/mia_story.png",
+      "image": "/assets/mia_story.png",
       "timestamp": "2025-11-10T09:54:00Z"
     }
   ]
