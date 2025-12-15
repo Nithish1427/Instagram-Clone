@@ -189,73 +189,73 @@
   ],
   "story": [
     {
-      "id": 4,
+      "id": 1,
       "user": {
         "id": 104,
         "username": "jerseyno.14",
-        "profile_pic": "/assets/profile_pic_nithish.jpg"
+        "profile_pic": "/assets/profile_pic_nithish.jpg",
+        "image": "/assets/Nithish_Story.png"
       },
-      "image": "/assets/Nithish_Stroy.jpg",
       "timestamp": "2025-11-10T14:27:00Z"
-    },
-    {
-      "id": 1,
-      "user": {
-        "id": 101,
-        "username": "Lionel Messi",
-        "profile_pic": "/assets/profile_pic_messi.png"
-      },
-      "image": "/assets/Messi_Story.png",
-      "timestamp": "2025-11-10T14:10:00Z"
     },
     {
       "id": 2,
       "user": {
-        "id": 102,
-        "username": "i'm_dhileepan",
-        "profile_pic": "/assets/profile_pic_dhileepan.png"
+        "id": 101,
+        "username": "Lionel Messi",
+        "profile_pic": "/assets/profile_pic_messi.png",
+        "image": "/assets/Messi_Story.png"
       },
-      "image": "/assets/Dhileepan_Stroy.jpg",
-      "timestamp": "2025-11-10T14:11:00Z"
+      "timestamp": "2025-11-10T14:10:00Z"
     },
     {
       "id": 3,
       "user": {
+        "id": 102,
+        "username": "i'm_dhileepan",
+        "profile_pic": "/assets/profile_pic_dhileepan.png",
+        "image": "/assets/Dhileepan_Story.png"
+      },
+      "timestamp": "2025-11-10T14:11:00Z"
+    },
+    {
+      "id": 4,
+      "user": {
         "id": 103,
         "username": "alex_dev",
-        "profile_pic": "/assets/profile_pic_1.png"
+        "profile_pic": "/assets/profile_pic_1.png",
+        "image": "/assets/alex_dev_story.png"
       },
-      "image": "/assets/alex_dev_story.png",
       "timestamp": "2025-11-10T14:05:00Z"
+    },
+    {
+      "id": 5,
+      "user": {
+        "id": 106,
+        "username": "lucas17",
+        "profile_pic": "/assets/profile_pic_5.png",
+        "image": "/assets/lucas_story_1.png"
+      },
+      "timestamp": "2025-11-10T10:38:00Z"
     },
     {
       "id": 6,
       "user": {
-        "id": 106,
-        "username": "lucas17",
-        "profile_pic": "/assets/profile_pic_5.png"
+        "id": 107,
+        "username": "daniel",
+        "profile_pic": "/assets/profile_pic_4.png",
+        "image": "/assets/daniel_story_1.png"
       },
-      "image": "/assets/lucas_story_1.png",
-      "timestamp": "2025-11-10T10:38:00Z"
+      "timestamp": "2025-11-10T10:15:00Z"
     },
     {
       "id": 7,
       "user": {
-        "id": 107,
-        "username": "daniel",
-        "profile_pic": "/assets/profile_pic_4.png"
-      },
-      "image": "/assets/daniel_story_1.png",
-      "timestamp": "2025-11-10T10:15:00Z"
-    },
-    {
-      "id": 8,
-      "user": {
         "id": 108,
         "username": "mia_bakes",
-        "profile_pic": "/assets/profile_pic_6.png"
+        "profile_pic": "/assets/profile_pic_6.png",
+        "image": "/assets/mia_story.png"
       },
-      "image": "/assets/mia_story.png",
       "timestamp": "2025-11-10T09:54:00Z"
     }
   ]
