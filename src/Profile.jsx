@@ -2,6 +2,9 @@ import React, { useEffect, useState } from "react";
 import axios from "axios";
 
 function Profile() {
+
+  const [unfollowed, setUnfollowed] = useState(0);
+
   const [following, setFollowing] = useState([]);
   const [followers, setFollowers] = useState([]);
 
@@ -29,7 +32,7 @@ function Profile() {
         setFollowers(data.data);
       })
       .catch((error) => console.log(error));
-  }, []);
+  }, [unfollowed]);
 
   function onChangeHandle(e) {
     setProfile((prev) => ({
@@ -44,10 +47,24 @@ function Profile() {
 
   // Update profile function
   const handleUpdate = async () => {
-    axios
+    await axios
       .put("http://localhost:3000/profile", profile)
       .then(console.log("Profile Updated"))
       .catch((error) => console.log(error));
+  };
+
+  // Unfollow functionality
+  const handleUnfollow = async (id, username) => {
+    try {
+      await axios.delete(`http://localhost:3000/following/${id}`, id, username)
+      .then(console.log("Unfollowed Successfully"))
+      .then(alert(`You unfollowed ${username}`))
+      .catch((error) => console.log(error));
+      // setFollowing((prev) => prev.filter((follow) => follow.id !== id));
+      setUnfollowed(!unfollowed);
+    } catch (error) {
+      console.log(error);
+    }
   };
 
   return (
@@ -61,8 +78,11 @@ function Profile() {
               src={profile.profile_pic}
               alt="profile_pic"
             />
+            <h5 className="profile-handle">{profile.handle}</h5>
           </div>
-          <label htmlFor="handle" className="text-secondary mx-2">User ID</label>
+          <label htmlFor="handle" className="text-secondary mx-2">
+            User ID
+          </label>
           <input
             type="text"
             value={profile.handle}
@@ -70,7 +90,9 @@ function Profile() {
             className="form-control my-2"
             onChange={onChangeHandle}
           />
-          <label htmlFor="username" className="text-secondary mx-2">Name</label>
+          <label htmlFor="username" className="text-secondary mx-2">
+            Name
+          </label>
           <input
             type="text"
             value={profile.username}
@@ -78,7 +100,9 @@ function Profile() {
             className="form-control my-2"
             onChange={onChangeHandle}
           />
-          <label htmlFor="profile_pic" className="text-secondary mx-2">Profile Picture</label>
+          <label htmlFor="profile_pic" className="text-secondary mx-2">
+            Profile Picture
+          </label>
           <input
             type="text"
             value={profile.profile_pic}
@@ -114,16 +138,30 @@ function Profile() {
         )}
 
         {following.length > 0 ? (
-          <div>
+          <div style={{ maxWidth : "350px", marginLeft: "50px" }}>
             <h5>Following</h5>
             {following.map((follow) => (
-              <div key={follow.id}>
-                <img
-                  className="dp rounded-circle my-1 me-2"
-                  src={follow.profile_pic}
-                  alt="profile_pic"
-                />
-                <span>{follow.username}</span>
+              <div key={follow.id} className="d-flex justify-content-between">
+                <div>
+                  <img
+                    className="dp rounded-circle my-1 me-2"
+                    src={follow.profile_pic}
+                    alt="profile_pic"
+                  />
+                  <span>{follow.username}</span>
+                </div>
+                <small
+                  className="text-primary unfollow-text ms-5"
+                  onClick={() =>
+                    handleUnfollow(
+                      follow.id,
+                      follow.username,
+                      follow.profile_pic
+                    )
+                  }
+                >
+                  Unfollow
+                </small>
               </div>
             ))}
           </div>

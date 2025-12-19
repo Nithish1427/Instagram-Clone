@@ -108,3 +108,15 @@
 .story-uname {
     font-size: 14px;
 }
+
+.profile-handle {
+    margin-top: 8px;
+    margin-left: 400px;
+}
+
+.unfollow-text {
+    cursor: pointer;
+    font-size: 14px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
