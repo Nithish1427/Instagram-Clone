@@ -1,7 +1,7 @@
 {
   "posts": [
     {
-      "id": 1,
+      "id": "1",
       "user": {
         "id": 101,
         "username": "Lionel Messi ",
@@ -19,7 +19,7 @@
       "timestamp": "2026-11-06T21:10:14Z"
     },
     {
-      "id": 2,
+      "id": "2",
       "user": {
         "id": 102,
         "username": "i'm_dhileepan",
@@ -37,7 +37,7 @@
       "timestamp": "2025-02-02T16:30:00Z"
     },
     {
-      "id": 3,
+      "id": "3",
       "user": {
         "id": 103,
         "username": "alex_dev",
@@ -59,7 +59,7 @@
       "timestamp": "2025-02-10T19:45:00Z"
     },
     {
-      "id": 4,
+      "id": "4",
       "user": {
         "id": 104,
         "username": "jerseyno.14",
@@ -77,7 +77,7 @@
       "timestamp": "2025-02-09T10:20:00Z"
     },
     {
-      "id": 5,
+      "id": "5",
       "user": {
         "id": 105,
         "username": "sophia",
@@ -95,7 +95,7 @@
       "timestamp": "2025-02-06T12:34:00Z"
     },
     {
-      "id": 6,
+      "id": "6",
       "user": {
         "id": 106,
         "username": "lucas17",
@@ -113,7 +113,7 @@
       "timestamp": "2025-02-04T06:45:00Z"
     },
     {
-      "id": 7,
+      "id": "7",
       "user": {
         "id": 107,
         "username": "daniel",
@@ -131,7 +131,7 @@
       "timestamp": "2025-02-07T08:12:00Z"
     },
     {
-      "id": 8,
+      "id": "8",
       "user": {
         "id": 108,
         "username": "mia_bakes",
@@ -151,45 +151,45 @@
   ],
   "profile": {
     "id": 104,
-    "handle" : "jerseyno.14",
+    "handle": "jerseyno.14",
     "username": "Nithish",
     "profile_pic": "src/assets/profile_pic_nithish.jpg"
   },
   "suggestions": [
     {
-      "id": 109,
+      "id": "109",
       "username": "emma_design",
-      "context" : "Suggested for you",
+      "context": "Suggested for you",
       "profile_pic": "src/assets/profile_pic_7.png"
     },
     {
-      "id": 110,
+      "id": "110",
       "username": "mark",
-      "context" : "Following you",
+      "context": "Following you",
       "profile_pic": "src/assets/profile_pic_2.png"
     },
     {
-      "id": 111,
+      "id": "111",
       "username": "Steve_H",
-      "context" : "Suggested for you",
+      "context": "Suggested for you",
       "profile_pic": "src/assets/profile_pic_Steve.png"
     },
     {
-      "id": 112,
+      "id": "112",
       "username": "maxine",
-      "context" : "Followed by i'm_dhileepan",
+      "context": "Followed by i'm_dhileepan",
       "profile_pic": "src/assets/profile_pic_11.png"
     },
     {
-      "id": 113,
+      "id": "113",
       "username": "Cristiano",
-      "context" : "Suggested for you",
+      "context": "Suggested for you",
       "profile_pic": "src/assets/profile_pic_Ronaldo.png"
     }
   ],
   "story": [
     {
-      "id": 1,
+      "id": "1",
       "user": {
         "id": 104,
         "username": "jerseyno.14",
@@ -199,7 +199,7 @@
       "timestamp": "2025-11-10T14:27:00Z"
     },
     {
-      "id": 2,
+      "id": "2",
       "user": {
         "id": 101,
         "username": "Lionel Messi",
@@ -209,7 +209,7 @@
       "timestamp": "2025-11-10T14:10:00Z"
     },
     {
-      "id": 3,
+      "id": "3",
       "user": {
         "id": 102,
         "username": "i'm_dhileepan",
@@ -219,7 +219,7 @@
       "timestamp": "2025-11-10T14:11:00Z"
     },
     {
-      "id": 4,
+      "id": "4",
       "user": {
         "id": 103,
         "username": "alex_dev",
@@ -229,7 +229,7 @@
       "timestamp": "2025-11-10T14:05:00Z"
     },
     {
-      "id": 5,
+      "id": "5",
       "user": {
         "id": 106,
         "username": "lucas17",
@@ -239,7 +239,7 @@
       "timestamp": "2025-11-10T10:38:00Z"
     },
     {
-      "id": 6,
+      "id": "6",
       "user": {
         "id": 107,
         "username": "daniel",
@@ -249,7 +249,7 @@
       "timestamp": "2025-11-10T10:15:00Z"
     },
     {
-      "id": 7,
+      "id": "7",
       "user": {
         "id": 108,
         "username": "mia_bakes",
