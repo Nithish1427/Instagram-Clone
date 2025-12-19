@@ -160,31 +160,36 @@
       "id": "109",
       "username": "emma_design",
       "context": "Suggested for you",
-      "profile_pic": "src/assets/profile_pic_7.png"
+      "profile_pic": "src/assets/profile_pic_7.png",
+      "following": false
     },
     {
       "id": "110",
       "username": "mark",
-      "context": "Following you",
-      "profile_pic": "src/assets/profile_pic_2.png"
+      "context": "Following i'm_dhileepan",
+      "profile_pic": "src/assets/profile_pic_2.png",
+      "following": false
     },
     {
       "id": "111",
       "username": "Steve_H",
       "context": "Suggested for you",
-      "profile_pic": "src/assets/profile_pic_Steve.png"
+      "profile_pic": "src/assets/profile_pic_Steve.png",
+      "following": false
     },
     {
       "id": "112",
       "username": "maxine",
       "context": "Followed by i'm_dhileepan",
-      "profile_pic": "src/assets/profile_pic_11.png"
+      "profile_pic": "src/assets/profile_pic_11.png",
+      "following": false
     },
     {
       "id": "113",
       "username": "Cristiano",
       "context": "Suggested for you",
-      "profile_pic": "src/assets/profile_pic_Ronaldo.png"
+      "profile_pic": "src/assets/profile_pic_Ronaldo.png",
+      "following": false
     }
   ],
   "story": [
@@ -257,6 +262,65 @@
         "image": "/assets/mia_story.png"
       },
       "timestamp": "2025-11-10T09:54:00Z"
+    }
+  ],
+  "followers": [
+    {
+      "id": "102",
+      "username": "i'm_dhileepan",
+      "profile_pic": "/assets/profile_pic_dhileepan.png"
+    },
+    {
+      "id": "103",
+      "username": "alex_dev",
+      "profile_pic": "/assets/profile_pic_1.png"
+    },
+    {
+      "id": "105",
+      "username": "sophia",
+      "profile_pic": "src/assets/profile_pic_3.png"
+    },
+    {
+      "id": "106",
+      "username": "lucas17",
+      "profile_pic": "/assets/profile_pic_5.png"
+    },
+    {
+      "id": "107",
+      "username": "daniel",
+      "profile_pic": "/assets/profile_pic_4.png"
+    },
+    {
+      "id": "108",
+      "username": "mia_bakes",
+      "profile_pic": "/assets/profile_pic_6.png"
+    }
+  ],
+  "following": [
+    {
+      "id": "101",
+      "username": "Lionel Messi",
+      "profile_pic": "src/assets/profile_pic_messi.png"
+    },
+    {
+      "id": "102",
+      "username": "i'm_dhileepan",
+      "profile_pic": "/assets/profile_pic_dhileepan.png"
+    },
+    {
+      "id": "103",
+      "username": "alex_dev",
+      "profile_pic": "/assets/profile_pic_1.png"
+    },
+    {
+      "id": "106",
+      "username": "lucas17",
+      "profile_pic": "/assets/profile_pic_5.png"
+    },
+    {
+      "id": "108",
+      "username": "mia_bakes",
+      "profile_pic": "/assets/profile_pic_6.png"
     }
   ]
 }
